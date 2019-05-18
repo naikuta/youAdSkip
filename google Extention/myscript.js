@@ -5,7 +5,7 @@ $(function() {
 		$(target).find('.videoAdUiSkipButton').each(function(){
 			setTimeout(function(){
 				$('.videoAdUiSkipButton').trigger("click");
-			},8000);
+			},9000);
 		});
 	});
 });
