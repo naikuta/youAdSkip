@@ -1,7 +1,6 @@
 $(function() {
-
-	$(document).on("DOMNodeInserted", function(e) {
-		var target = e.target;
+	$(document).on("DOMNodeInserted", function(ev) {
+		var target = ev.target;
 		$(target).find('.videoAdUiSkipButton').each(function(){
 			setTimeout(function(){
 				$('.videoAdUiSkipButton').trigger("click");
